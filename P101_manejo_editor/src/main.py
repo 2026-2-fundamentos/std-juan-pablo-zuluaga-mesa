@@ -7,7 +7,7 @@ from pathlib import Path
 ACTIVITY_DIR = Path(__file__).resolve().parents[1]
 DATA_FOLDER = ACTIVITY_DIR / "data"
 INPUT_FOLDER = ACTIVITY_DIR / "temp" / "input"
-OUTPUT_FOLDER = ACTIVITY_DIR / "temp" / "output"
+OUTPUT_FOLDER = ACTIVITY_DIR / "submission"
 SUBMISSION_FOLDER = ACTIVITY_DIR / "submission"
 
 # La carpeta input/ debe existir y estar vacia.
